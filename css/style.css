@@ -20,6 +20,14 @@
   --items-work: 3;
 }
 
+/* Обнулили */
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
 ul {
   list-style: none;
 }
@@ -37,14 +45,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Обнулили */
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-  padding: 0;
-}
 
 /* списки */
 .list {
@@ -263,9 +263,6 @@ p {
 }
 
 /* Робота  */
-.work {
-  padding-bottom: 0;
-}
 .work>.container>.titel {
 margin-bottom: 50px;
 }
